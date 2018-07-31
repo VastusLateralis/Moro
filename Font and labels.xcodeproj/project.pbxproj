@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A36A0A272110E22C001480CD /* Moro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36A0A272110E22C001480CD /* Font and labels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Font and labels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36A0A2A2110E22C001480CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36A0A2C2110E22C001480CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A36A0A2F2110E22C001480CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A36A0A312110E22E001480CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36A0A342110E22E001480CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A36A0A362110E22E001480CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A36A0A3B2110E22E001480CD /* MoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36A0A3B2110E22E001480CD /* Font and labelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Font and labelsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36A0A3F2110E22E001480CD /* MoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoroTests.swift; sourceTree = "<group>"; };
 		A36A0A412110E22E001480CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A36A0A462110E22E001480CD /* MoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36A0A462110E22E001480CD /* Font and labelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Font and labelsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36A0A4A2110E22E001480CD /* MoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoroUITests.swift; sourceTree = "<group>"; };
 		A36A0A4C2110E22E001480CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		A36A0A282110E22C001480CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A36A0A272110E22C001480CD /* Moro.app */,
-				A36A0A3B2110E22E001480CD /* MoroTests.xctest */,
-				A36A0A462110E22E001480CD /* MoroUITests.xctest */,
+				A36A0A272110E22C001480CD /* Font and labels.app */,
+				A36A0A3B2110E22E001480CD /* Font and labelsTests.xctest */,
+				A36A0A462110E22E001480CD /* Font and labelsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A36A0A262110E22C001480CD /* Moro */ = {
+		A36A0A262110E22C001480CD /* Font and labels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A36A0A4F2110E22E001480CD /* Build configuration list for PBXNativeTarget "Moro" */;
+			buildConfigurationList = A36A0A4F2110E22E001480CD /* Build configuration list for PBXNativeTarget "Font and labels" */;
 			buildPhases = (
 				A36A0A232110E22C001480CD /* Sources */,
 				A36A0A242110E22C001480CD /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Moro;
+			name = "Font and labels";
 			productName = Moro;
-			productReference = A36A0A272110E22C001480CD /* Moro.app */;
+			productReference = A36A0A272110E22C001480CD /* Font and labels.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A36A0A3A2110E22E001480CD /* MoroTests */ = {
+		A36A0A3A2110E22E001480CD /* Font and labelsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A36A0A522110E22E001480CD /* Build configuration list for PBXNativeTarget "MoroTests" */;
+			buildConfigurationList = A36A0A522110E22E001480CD /* Build configuration list for PBXNativeTarget "Font and labelsTests" */;
 			buildPhases = (
 				A36A0A372110E22E001480CD /* Sources */,
 				A36A0A382110E22E001480CD /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				A36A0A3D2110E22E001480CD /* PBXTargetDependency */,
 			);
-			name = MoroTests;
+			name = "Font and labelsTests";
 			productName = MoroTests;
-			productReference = A36A0A3B2110E22E001480CD /* MoroTests.xctest */;
+			productReference = A36A0A3B2110E22E001480CD /* Font and labelsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A36A0A452110E22E001480CD /* MoroUITests */ = {
+		A36A0A452110E22E001480CD /* Font and labelsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A36A0A552110E22E001480CD /* Build configuration list for PBXNativeTarget "MoroUITests" */;
+			buildConfigurationList = A36A0A552110E22E001480CD /* Build configuration list for PBXNativeTarget "Font and labelsUITests" */;
 			buildPhases = (
 				A36A0A422110E22E001480CD /* Sources */,
 				A36A0A432110E22E001480CD /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				A36A0A482110E22E001480CD /* PBXTargetDependency */,
 			);
-			name = MoroUITests;
+			name = "Font and labelsUITests";
 			productName = MoroUITests;
-			productReference = A36A0A462110E22E001480CD /* MoroUITests.xctest */;
+			productReference = A36A0A462110E22E001480CD /* Font and labelsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A36A0A222110E22C001480CD /* Build configuration list for PBXProject "Moro" */;
+			buildConfigurationList = A36A0A222110E22C001480CD /* Build configuration list for PBXProject "Font and labels" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A36A0A262110E22C001480CD /* Moro */,
-				A36A0A3A2110E22E001480CD /* MoroTests */,
-				A36A0A452110E22E001480CD /* MoroUITests */,
+				A36A0A262110E22C001480CD /* Font and labels */,
+				A36A0A3A2110E22E001480CD /* Font and labelsTests */,
+				A36A0A452110E22E001480CD /* Font and labelsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		A36A0A3D2110E22E001480CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A36A0A262110E22C001480CD /* Moro */;
+			target = A36A0A262110E22C001480CD /* Font and labels */;
 			targetProxy = A36A0A3C2110E22E001480CD /* PBXContainerItemProxy */;
 		};
 		A36A0A482110E22E001480CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A36A0A262110E22C001480CD /* Moro */;
+			target = A36A0A262110E22C001480CD /* Font and labels */;
 			targetProxy = A36A0A472110E22E001480CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -479,7 +479,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moro.app/Moro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Font and labels.app/Font and labels";
 			};
 			name = Debug;
 		};
@@ -500,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moro.app/Moro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Font and labels.app/Font and labels";
 			};
 			name = Release;
 		};
@@ -547,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A36A0A222110E22C001480CD /* Build configuration list for PBXProject "Moro" */ = {
+		A36A0A222110E22C001480CD /* Build configuration list for PBXProject "Font and labels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36A0A4D2110E22E001480CD /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A36A0A4F2110E22E001480CD /* Build configuration list for PBXNativeTarget "Moro" */ = {
+		A36A0A4F2110E22E001480CD /* Build configuration list for PBXNativeTarget "Font and labels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36A0A502110E22E001480CD /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A36A0A522110E22E001480CD /* Build configuration list for PBXNativeTarget "MoroTests" */ = {
+		A36A0A522110E22E001480CD /* Build configuration list for PBXNativeTarget "Font and labelsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36A0A532110E22E001480CD /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A36A0A552110E22E001480CD /* Build configuration list for PBXNativeTarget "MoroUITests" */ = {
+		A36A0A552110E22E001480CD /* Build configuration list for PBXNativeTarget "Font and labelsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36A0A562110E22E001480CD /* Debug */,
